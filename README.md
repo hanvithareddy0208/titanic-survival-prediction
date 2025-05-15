@@ -57,11 +57,21 @@ Fare
 Embarked
 
 📈 Evaluation
-Sample model performance:
-Accuracy: 0.80
-Precision: 0.78
-Recall: 0.75
-F1 Score: 0.76
+
+Logistic Regression Model:
+Accuracy: 0.8045
+Precision: 0.7910
+Recall: 0.7162
+F-score: 0.7518
+Cross-validation scores: [0.68965517 0.64655172 0.73275862 0.75862069 0.73275862]
+Average cross-validation score: 0.7120689655172414
+
+
+K-Nearest Neighbors (KNN) Model:
+Accuracy: 0.6480
+Precision: 0.6341
+Recall: 0.3514
+F-score: 0.4522
 Note: Results may vary based on feature engineering and model used.
 
 📚 References
